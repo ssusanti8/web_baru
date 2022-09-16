@@ -10,6 +10,7 @@
 <body style="background: lightgray">
 
 <div class="container mt-5 mb-5">
+<h2> Tambah Isi Produk</h2>
         <div class="row">
             <div class="col-md-12">
                 <div class="card border-0 shadow rounded">

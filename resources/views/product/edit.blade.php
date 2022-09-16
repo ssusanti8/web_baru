@@ -21,7 +21,7 @@
 
                             <div class="form-group">
                                 <label class="font-weight-bold">NAMA PRODUK</label>
-                                <input type="text" class="form-control @error('namaproduk') is-invalid @enderror" name="namaproduk" value="{{ old('namaproduk', $product->namaproduk) }}" placeholder="Masukkan Kategori Rumah">
+                                <input type="text" class="form-control @error('namaproduk') is-invalid @enderror" name="namaproduk" value="{{ old('namaproduk', $product->namaproduk) }}" placeholder="Masukkan Nama Produk">
                             
                                 <!-- error message untuk namaproduk -->
                                 @error('namaproduk')

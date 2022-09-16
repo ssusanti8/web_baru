@@ -19,7 +19,7 @@
                             @csrf
 
                             <div class="form-group">
-                                <label class="font-weight-bold">Nama Produk</label>
+                                <label class="font-weight-bold">NAMA PRODUK</label>
                                 <input type="text" class="form-control @error('namaproduk') is-invalid @enderror" name="namaproduk" value="{{ old('namaproduk') }}" placeholder="Masukkan product rumah">
                             
                                 <!-- error message untuk namaproduk -->

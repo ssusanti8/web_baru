@@ -19,7 +19,7 @@
                         <table class="table table-bordered">
                             <thead>
                               <tr>
-                                <th scope="col">KATEGORI</th>
+                                <th scope="col">NAMA PRODUK</th>
                                 <th scope="col">GAMBAR</th>
                                 <th scope="col">DESKRIPSI</th>
                                 <th scope="col">AKSI</th>

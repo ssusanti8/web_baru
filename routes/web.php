@@ -2,6 +2,8 @@
 
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\ProductController;
+use App\Http\Controllers\MahasiswaController;
+use Barryvdh\DomPDF\Facade\Pdf;
 
 /*
 |--------------------------------------------------------------------------
@@ -20,3 +22,6 @@ Route::get('/', function () {
 
 //Menampilkan product dan CRUD
 Route::resource('/product', ProductController::class);
+
+Route::get('mahasiswa/pdf', [MahasiswaController::class, 'cetak_pdf']);
+Route::resource('mahasiswa', MahasiswaController::class);

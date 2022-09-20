@@ -25,3 +25,7 @@ Route::resource('/product', ProductController::class);
 
 Route::get('mahasiswa/pdf', [MahasiswaController::class, 'cetak_pdf']);
 Route::resource('mahasiswa', MahasiswaController::class);
+
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
